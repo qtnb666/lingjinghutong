@@ -1,0 +1,68 @@
+@media (max-width: 992px) {
+    .main-content {
+        flex-direction: column;
+    }
+    
+    .carousel-content {
+        margin-left: 20px;
+        padding: 20px;
+    }
+    
+    .carousel-content h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        flex-direction: column;
+        padding: 20px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+    }
+    
+    .nav-menu.active {
+        display: flex;
+    }
+    
+    .mobile-menu-btn {
+        display: block;
+    }
+    
+    .module-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .carousel {
+        height: 300px;
+    }
+    
+    .carousel-content {
+        margin: 0 20px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-text {
+        font-size: 1.2rem;
+    }
+    
+    .carousel {
+        height: 250px;
+    }
+    
+    .carousel-content h2 {
+        font-size: 1.2rem;
+    }
+    
+    .section-card {
+        padding: 15px;
+    }
+}

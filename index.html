@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>青少年网络安全学习平台</title>
+
+    <!-- 样式文件 -->
+    <!--<link rel="stylesheet" href="style.css">-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/modules.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/learning-resources.css">
+
+    <!-- 字体和图标 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 头部导航 -->
+    <div id="header-container"></div>
+
+    <!-- 轮播图区域 -->
+    <div id="hero-carousel-container"></div>
+
+    <!-- 主要内容区 -->
+    <!--<main class="container main-content">
+        <div class="content-section">-->
+    <!-- 模块内容将通过JavaScript动态加载 -->
+    <!--<div id="module-container"></div>-->
+    <!-- 默认显示核心基础模块 -->
+    <!--<div id="core-module"></div>
+    </div>-->
+    <!-- 侧边栏 -->
+    <!--<div id="sidebar-container"></div>
+    </main>-->
+
+    <main class="container">
+        <!-- 负责核心模块+侧边栏的 flex 布局 -->
+        <div class="main-content">
+            <div class="content-section">
+                <!-- 模块内容将通过JavaScript动态加载 -->
+                <div id="module-container"></div>
+                <!-- 默认显示核心基础模块 -->
+                <div id="core-module"></div>
+            </div>
+
+            <!-- 侧边栏 -->
+            <div id="sidebar-container"></div>
+        </div>
+    </main>
+
+    <!-- 页脚 -->
+    <div id="footer-container"></div>
+
+    <!-- JavaScript文件 -->
+    <!--<script src="script.js"></script>-->
+    <script src="js/main.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/countdown.js"></script>
+    <script type="module" src="js/module-loader.js"></script>
+    <script type="module" src="js/learning-resources.js"></script>
+
+    
+    <!-- 初始化 -->
+    <script>
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', function () {
+            loadComponents();
+            initializeCarousel();
+            initializeNavigation();
+            initializeCountdown();
+        });
+    </script>
+</body>
+</html>
