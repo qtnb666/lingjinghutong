@@ -1,2 +1,47 @@
-# lingjinghutong.org.cn
-ç´«é€šç§‘æŠ€çš„çµå¢ƒèƒ¡åŒ
+±¾ÎÄ¼şÎªÍøÕ¾µÄÉè¼Æ½á¹¹Í¼
+
+ÇàÉÙÄêÍøÂç°²È«ÈüÊÂÆ½Ì¨/
+©¦
+©À©¤©¤ index.html                 # Ö÷Ò³Ãæ
+©À©¤©¤ style.css                  # Ö÷ÑùÊ½ÎÄ¼ş
+©À©¤©¤ script.js                  # Ö÷JavaScriptÎÄ¼ş
+©¦
+©À©¤©¤ modules/                   # ¸÷¹¦ÄÜÄ£¿éHTML
+©¦   ©À©¤©¤ core.html             # ºËĞÄ»ù´¡Ä£¿é
+©¦   ©À©¤©¤ competition.html      # ¾ºÈü·şÎñÄ£¿é
+©¦   ©À©¤©¤ learning.html         # Ñ§Ï°¸³ÄÜÄ£¿é
+©¦   ©À©¤©¤ learning-resources.html # Ñ§Ï°×ÊÔ´Ä£¿é
+©¦   ©À©¤©¤ interaction.html      # »¥¶¯½»Á÷Ä£¿é
+©¦   ©¸©¤©¤ support.html          # ¸¨ÖúÖ§³ÖÄ£¿é
+©¦
+©À©¤©¤ components/                # ¿É¸´ÓÃ×é¼ş
+©¦   ©À©¤©¤ header.html           # Í·²¿µ¼º½
+©¦   ©À©¤©¤ footer.html           # Ò³½Å
+©¦   ©À©¤©¤ sidebar.html          # ²à±ßÀ¸
+©¦   ©¸©¤©¤ hero-carousel.html    # ÂÖ²¥Í¼×é¼ş
+©¦
+©À©¤©¤ css/                       # ÑùÊ½ÎÄ¼ş
+©¦   ©À©¤©¤ main.css              # Ö÷ÑùÊ½
+©¦   ©À©¤©¤ learning-resources.css # Ñ§Ï°×ÊÔ´ÑùÊ½
+©¦   ©À©¤©¤ components.css        # ×é¼şÑùÊ½
+©¦   ©À©¤©¤ modules.css           # Ä£¿éÑùÊ½
+©¦   ©¸©¤©¤ responsive.css        # ÏìÓ¦Ê½ÑùÊ½
+©¦
+©À©¤©¤ js/                        # JavaScriptÎÄ¼ş
+©¦   ©À©¤©¤ main.js               # Ö÷Òª¹¦ÄÜ
+©¦   ©À©¤©¤ carousel.js           # ÂÖ²¥Í¼¹¦ÄÜ
+©¦   ©À©¤©¤ navigation.js         # µ¼º½¹¦ÄÜ
+©¦   ©À©¤©¤ module-loader.js      # ·ÖÄ£¿é¼ÓÔØÆ÷
+©¦   ©À©¤©¤ learning-resources.js # Ñ§Ï°×ÊÔ´Ò³ÃæÏà¹Ø
+©¦   ©¸©¤©¤ countdown.js          # µ¹¼ÆÊ±¹¦ÄÜ
+©¦
+©À©¤©¤ assets/                    # ¾²Ì¬×ÊÔ´
+©¦   ©À©¤©¤ images/               # Í¼Æ¬ÎÄ¼ş
+©¦   ©À©¤©¤ icons/                # Í¼±ê
+©¦   ©¸©¤©¤ fonts/                # ×ÖÌåÎÄ¼ş
+©¦
+©¸©¤©¤ php/                       # ºó¶Ë´¦ÀíÎÄ¼ş
+    ©À©¤©¤ config.php            # Êı¾İ¿âÅäÖÃ
+    ©À©¤©¤ db_connection.php     # Êı¾İ¿âÁ¬½Ó
+    ©À©¤©¤ user_management.php   # ÓÃ»§¹ÜÀí
+    ©¸©¤©¤ form_handlers/        # ±íµ¥´¦Àí
